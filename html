@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    
+    <title>Astro App</title>
+  </head>
+  <bodybg color= yellow>
+    <main>
+      <h1>AstroApp</h1>
+      <section>
+        <h2>AstroPics</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://astropics.com">cat photos</a> in our gallery.</p>
+        <a href="https://astropics.com"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencenews.org%2Farticle%2Fspace-images-music-astronomy-accessible-sonification&psig=AOvVaw0vFEmM1n_J3RALbz4q0Exk&ust=1698418017609000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODD5ab6k4IDFQAAAAAdAAAAABAE" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Star Lists</h2>
+        <h3>What I love:</h3>
+        <ul>
+          <li>Neutron stars can spin at a rate of 600 rotations per second. </li>
+          <li>The Apollo astronauts' footprints on the moon will probably stay there for at least 100 million years.</li>
+          <li>One million Earths could fit inside the Sun – and the Sun is considered an average-size star.</li>
+        </ul>
+        <figure>
+          <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcen.acs.org%2Fcontent%2Fdam%2Fcen%2F99%2F11%2FWEB%2F09911-feature3-venus.jpg&tbnid=zIGl-cjBsxkToM&vet=12ahUKEwiArIH5-pOCAxUVmmMGHTFECQ0QMygKegUIARCCAQ..i&imgrefurl=https%3A%2F%2Fcen.acs.org%2Fphysical-chemistry%2Fastrochemistry%2FWhat-can-we-learn-from-Venus%2F99%2Fi11&docid=Q7pyGBec8jTVCM&w=1200&h=1202&q=venus&ved=2ahUKEwiArIH5-pOCAxUVmmMGHTFECQ0QMygKegUIARCCAQ" alt="Image of Venus.">
+          <figcaption>Venus is<em>beautiful</em> .wow</figcaption>  
+        </figure>
+        <h3>Top 3 space facts:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fb%2Fb8%2FLaser_Towards_Milky_Ways_Centre.jpg&tbnid=9_l8WyrbsWwRFM&vet=12ahUKEwj2t6LJ-5OCAxVm7DgGHYI6Bd8QMygBegQIARBw..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAstronomy&docid=_fbS8IZvIc2JpM&w=4000&h=3631&q=astronomy&hl=en&ved=2ahUKEwj2t6LJ-5OCAxVm7DgGHYI6Bd8QMygBegQIARBw" alt="A spectacular wallpaper for my desktop.">
+          <figcaption>I am a <strong>big</strong> fan of this image.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Space Form</h2>
+        <form action="https://astropics.com/submit-cat-photo">
+          <fieldset>
+            <legend>Which planet of these two do you love more?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Venus</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Saturn</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your fav constellation?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="astrophotourl" placeholder="astro pic url" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Keep loving space, no astrophiles were harmed in the process. - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
